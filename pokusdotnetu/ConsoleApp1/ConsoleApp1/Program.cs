@@ -12,6 +12,12 @@ namespace ConsoleApp1
         {
 
             Console.WriteLine("Hello World!");
+            Console.WriteLine("Oh no a new version!!??");
+            Class1 c1 = new Class1();
+            Console.WriteLine(c1.sayHello());
+
+
+         
         }
     }
 }
