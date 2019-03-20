@@ -6,6 +6,19 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
+    public class SecondClass
+    {
+        int a;
+
+        public bool pravda(int i)
+        {
+            if (i > 0)
+            {
+                return true;
+            }
+            return false;
+        }
+    }
     class Program
     {
         static void Main(string[] args)
